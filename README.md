@@ -1,3 +1,5 @@
+I HAVE USED TAILWINDCSS TO MAKE THIS FRONTEND PROJECT AND JUST FOR THE EASE OF DEPLOYMENT I HAVE USED NEXTJS FRAMEWORK BUT ALL THE FEATURES IN THE APP ARE MADE FROM TAILWINDCSS ONLY
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
