@@ -86,9 +86,12 @@ export default function Home() {
         </div>
 
         <div className="flex md:flex-row flex-col items-center">
+          <form type="submit">
           <input type="email" required placeholder="name@yourcomapny.com" className="w-64 p-2  mt-4 border-2" />
           <button className="bg-violet-500 p-2 md:mt-4 mt-1 cursor-pointer px-8 rounded-sm text-white">Try it free</button>
+          </form>
         </div>
+
 
       </div>
 
@@ -161,42 +164,42 @@ export default function Home() {
           <div className="flex flex-wrap justify-center items-center mt-8 md:ml-20 ml-4">
             <div className="flex flex-col md:w-1/3 w-full justify-center mt-4 md:mt-2  md:items-left">
               <div className="flex items-center justify-center md:justify-start">
-              <Image classname="" src={Group21} />
+              <Image className="" src={Group21} />
               </div>
               <div className="text-center md:text-left font-semibold text-xl mt-2">Team Survey & Reports</div>
               <div className="text-center md:text-left text-gray-500 md:w-1/2">Short anonymous surveys tracks your teams needs weekly so you can focus</div>
             </div>
             <div className="flex flex-col md:w-1/3 w-full justify-center mt-4 md:mt-2 md:items-left">
               <div className="flex items-center justify-center md:justify-start">
-              <Image classname="" src={Group19} />
+              <Image className="" src={Group19} />
               </div>
               <div className="text-center md:text-left font-semibold text-xl mt-2">Collaborative 1:1</div>
               <div className="text-center md:text-left text-gray-500 md:w-1/2">Build relationships by planning 1-on-1s and start meetings</div>
             </div>
             <div className="flex flex-col md:w-1/3 w-full justify-center mt-4 md:mt-2 md:items-left">
               <div className="flex items-center justify-center md:justify-start">
-              <Image classname="" src={Group20} />
+              <Image className="" src={Group20} />
               </div>
               <div className="text-center md:text-left font-semibold text-xl mt-2">Learning center</div>
               <div className="text-center md:text-left text-gray-500 md:w-1/2">Quickly get solutions tailored to your personel challenges from the manager</div>
             </div>
             <div className="flex flex-col md:w-1/3 w-full justify-center mt-4 md:mt-2 md:items-left">
               <div className="flex items-center justify-center md:justify-start">
-              <Image classname="" src={Group22} />
+              <Image className="" src={Group22} />
               </div>
               <div className="text-center md:text-left font-semibold text-xl mt-2">Anonymous Messages</div>
               <div className="text-center md:text-left text-gray-500 md:w-1/2">Develop trust in a safe channel for important converstations</div>
             </div>
             <div className="flex flex-col md:w-1/3 w-full justify-center mt-4 md:mt-2 md:items-left">
               <div className="flex items-center justify-center md:justify-start">
-              <Image classname="" src={Group23} />
+              <Image className="" src={Group23} />
               </div>
               <div className="text-center md:text-left font-semibold text-xl mt-2">Conversation Engine</div>
               <div className="text-center md:text-left text-gray-500 md:w-1/2">Communicate strongly with recommended talking points </div>
             </div>
             <div className="flex flex-col md:w-1/3 w-full justify-center mt-4 md:mt-2 md:items-left">
               <div className="flex items-center justify-center md:justify-start">
-              <Image classname="" src={Group24} />
+              <Image className="" src={Group24} />
               </div>
               <div className="text-center md:text-left font-semibold text-xl mt-2">Exclusives Manager</div>
               <div className="text-center md:text-left text-gray-500 md:w-1/2">Access manager tips, activities and best practices from our team of experts</div>
