@@ -86,7 +86,7 @@ export default function Home() {
         </div>
 
         <div className="flex md:flex-row flex-col items-center">
-          <form type="submit">
+          <form className="flex md:flex-row flex-col items-center" type="submit">
           <input type="email" required placeholder="name@yourcomapny.com" className="w-64 p-2  mt-4 border-2" />
           <button className="bg-violet-500 p-2 md:mt-4 mt-1 cursor-pointer px-8 rounded-sm text-white">Try it free</button>
           </form>
